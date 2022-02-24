@@ -4,7 +4,7 @@
 
 **Get involved in the build-along by contributing your own party invitation theme!**
 
-To do this...
+To do this....
 
 1. Fork the repo
 2. create a new project in VS Code using the link from your new fork
