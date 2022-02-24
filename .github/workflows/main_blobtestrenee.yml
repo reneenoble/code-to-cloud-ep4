@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'blobtestrenee'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_805E48F1B9314643BC2C9A74DB7B934B }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_2B6E5F5B2F9145B0A5DAFE4B06045D80 }}
