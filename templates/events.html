@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+
+    <body>
+        {% for event_file, name, event_name in event_list %}
+            <p>
+                <a href="/event-rsvps/{{ event_file }}">{{ name }}'s event {{ event_name }}</a>
+            </p>
+        {% endfor %}
+
+    </body>
+</html>

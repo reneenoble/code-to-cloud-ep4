@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    </head>
+
+    <body>
+        <h2>The following people have RSVPed to {{ event_name }} hoseted by {{ name }}</h2>
+        {% for attendee in attendee_list %}
+            <ul>
+                <li>{{ attendee }}</li>
+            </ul>
+        {% endfor %}
+
+    </body>
+</html>
