@@ -82,8 +82,6 @@ def event_rsvps(event_file):
     return render_template("rsvp_list.html", attendee_list=attendees, event_name=event_name, name=name)
 
 
-
-
 @app.route("/rsvp", methods=('GET', 'POST'))
 def rsvp():
     data = request.json
